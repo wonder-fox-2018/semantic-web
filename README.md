@@ -1,1 +1,2 @@
-# semantic-web
+# sematicweb.github.io
+static sematic web 
