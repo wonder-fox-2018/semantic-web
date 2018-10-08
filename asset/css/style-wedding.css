@@ -1,0 +1,179 @@
+*{
+    margin: auto auto;
+}
+
+.container{
+
+}
+body{
+    width: 80%;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #eba1a1;
+    background-image: url("../img/4.jpg");
+    background-size: cover;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+    
+
+}
+header h3{
+    /* color: rgb(8, 8, 8); */
+    font-size: 30px;
+    padding: 50px 20px 10px 20px; 
+    color: black;
+}
+header nav{
+    width: 100%;
+    height: 50px;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    font-size: 30px;
+    padding: 0px 20px;
+    display: inline;
+    left: 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* Section */
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-image: url("../img/background-texture-2.jpg"); */
+    /* background dihapus */
+}
+#homesection{
+    float:left;
+    width: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+     
+}
+#homesection h3{
+    padding: 8px;
+    text-align: center;
+    background-color: #eba1a1;
+    margin : 8px;
+    color: white;
+}
+#homesection .materi{
+    padding: 10px;
+    text-align: left;
+    margin : 10px;
+    color: black;
+}
+#homesection .form{
+    display: inline;
+}
+
+#homesection form{
+    display: inline;
+}
+
+#homesection form input{
+    text-align: center;
+    background-color: transparent;
+    padding : 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+}
+#countdown{
+    padding-top: 1px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+}
+
+
+#homesection .form datalist{
+    width: 20%;
+}
+#homesection .form input{
+    width:54%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px
+}
+#homesection .form button{
+    width: 20%;
+}
+
+#homesection form button{
+    width: 20%;
+    padding : 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+    background-color: transparent;
+}
+
+
+#portfoliosection{
+    float: right;
+    width: 29%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+    color: white;
+}
+
+#portfoliosection h3{
+    padding: 10px;
+    text-align: center;
+    background-color: #eba1a1;
+    margin : 8px;
+}
+#portfoliosection h4{
+    padding: 10px;
+    text-align: center;
+    
+}
+#portfoliosection h4 strong a{
+    color: black;
+}
+#contactsection{
+    clear: both;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fb7d88;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+#contactsection h4{
+    padding: 10px;
+    text-align: left;
+}
+
+#contactsection .freetocontact{
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 25px;
+}
+#contactsection ul li{
+    list-style-type: none;}
+/* End Section */
+
+/* Footer */
+footer{
+    height: 25px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+}
+/* End Footer */

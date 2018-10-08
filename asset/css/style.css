@@ -1,0 +1,125 @@
+*{
+    margin: auto auto;
+}
+
+.container{
+
+}
+body{
+    width: 80%;
+    background-image: url("../img/50577e1f9b187b0.jpg")
+
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/textures-background-4.jpg");
+    background-size: cover;
+}
+header h3{
+    color: white;
+    font-size: 30px;
+    padding: 50px 20px 10px 20px; 
+}
+header nav{
+    width: 100%;
+    height: 50px;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    font-size: 30px;
+    padding: 0px 20px;
+    display: inline;
+    left: 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* Section */
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("../img/background-texture-2.jpg");
+    
+}
+#homesection{
+    float:left;
+    width: 70%;
+}
+#homesection h3{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(90, 88, 88);
+    margin : 10px;
+}
+#homesection .materi{
+    padding: 10px;
+    text-align: left;
+    background-color: black;
+    margin : 10px;
+    opacity: 0.5;
+    color: white;
+}
+#homesection form{
+    display: inline;;
+}
+#homesection form datalist{
+    width: 20%
+}
+#homesection form input{
+    width: 60%
+}
+homesection form button{
+    width: 20%
+}
+
+
+#portfoliosection{
+    float: right;
+    width: 29%;
+}
+
+#portfoliosection h3{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(90, 88, 88);
+    margin : 10px;
+}
+#portfoliosection h4{
+    padding: 10px;
+    text-align: center;
+}
+#contactsection{
+    clear: both;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+#contactsection h4{
+    padding: 10px;
+    text-align: left;
+}
+
+#contactsection .freetocontact{
+    padding: 10px 10px 20px 10px;
+    margin: 10px;
+    text-align: left;
+    background-color: rgb(90, 88, 88);
+    font-size: 25px;
+}
+#contactsection ul li{
+    list-style-type: none;}
+/* End Section */
+
+/* Footer */
+footer{
+    height: 25px;
+    text-align: center;
+    color: white;
+}
+/* End Footer */
