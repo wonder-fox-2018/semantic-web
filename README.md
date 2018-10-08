@@ -1,1 +1,3 @@
-# semantic-web
+# web-semantics2
+
+## Web Semantics Project
