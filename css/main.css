@@ -1,0 +1,761 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background-color: transparent;
+}
+
+button {border: none;}
+
+html {
+	font-size: 1em;
+	line-height: 1.4em;
+	font-family: 'Hind', sans-serif;
+}
+
+::moz-selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+::webkit-selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+::selection {
+	background-color: #b3d4fc;
+	box-shadow: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.clearfix {clear: both;}
+
+.overly {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+header, section.service, section.portofolio, section.blog,
+section.news, section.ourTeam, section.ourSkills,
+section.count, section.ourTeamTwo, section.customers,
+section.mapGoogle, footer {
+	min-width: 1366px;
+}
+
+/*================================================
+											End Base Style
+   ================================================*/
+
+/*================================================
+										  Start Style Header
+   ================================================*/
+header {
+	background: url(../img/bgheader.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 700px;
+}
+
+header div.overly div.container nav {
+	padding: 45px 0 0 0;
+}
+
+header div.overly div.container nav div.logo {
+	float: left;
+}
+
+header div.overly div.container nav div.logo > span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: #03a9f4;
+	text-align: center;
+	color: #FFF;
+	line-height: 35px;
+	font-size: 1em;
+	border-radius: 2px;
+	float: left;
+}
+
+header div.overly div.container nav div.logo h3 {
+	display: inline-block;
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: normal;
+	float: right;
+	padding: 6px 0 0 10px;
+}
+
+header div.overly div.container nav div.logo h3 span {
+	font-weight: bold;
+}
+
+header div.overly div.container nav ul {
+	float: right;
+	margin-top: 2px;
+}
+
+header div.overly div.container nav ul li {
+	float: left;
+	text-align: center;
+}
+
+header div.overly div.container nav ul li:after {
+	content: ' ';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #03a9f4;
+	-webkit-transition: width .4s ease-in-out;
+	-moz-transition: width .4s ease-in-out;
+	-o-transition: width .4s ease-in-out;
+	transition: width .4s ease-in-out;
+}
+
+header div.overly div.container nav ul li:hover:after {
+	width: 100%;
+}
+
+header div.overly div.container nav ul li a {
+	display: inline-block;
+	padding: 7px 15px;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: 500;
+	margin-right: 5px;
+}
+
+header div.overly div.container nav ul li:last-of-type {
+	box-shadow: -10px 0 0 -9px rgba(255, 255, 255, 0.4);
+}
+
+header div.overly div.container div.intro {
+	width: 850px;
+	margin: 130px auto;
+	color: #FFF;
+	text-align: center;
+}
+
+header div.overly div.container div.intro  h4 {
+	font-size: 1.6em;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+
+header div.overly div.container div.intro  h4 span {
+	font-weight: bold;
+}
+
+header div.overly div.container div.intro h1 {
+	font-size: 2.5em;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 35px;
+}
+
+header div.overly div.container div.intro p {
+	font-size: 1em;
+	line-height: 2.5em;
+	margin-bottom: 35px;
+}
+
+header div.overly div.container div.intro button {
+	padding: 15px 37px;
+	background-color: #03a9f4;
+	text-align: center;
+	color: #FFF;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+header div.overly div.container div.indicator {
+	width: 80px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+header div.overly div.container div.indicator a {
+	width: 12px;
+	height: 12px;
+	background-color: #CCC;
+	display: block;
+	float: left;
+	margin-right: 8px;
+	border-radius: 1px;
+}
+
+header div.overly div.container div.indicator a.selected {
+	background-color: #03a9f4;
+}
+
+/*================================================
+      									    End Syle  Header
+   ================================================*/
+
+/*================================================
+									      Start style Service
+  ================================================*/
+section.service  {
+	overflow: hidden;
+}
+
+section.service div.boxService {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 320px;
+	text-align: center;
+}
+
+section.service div.boxService:nth-child(odd){
+	background-color: #f6fdff;
+}
+
+
+section.service div.boxService div {
+	width: 280px;
+	margin: 0 auto;
+	padding: 35px 0 0 0;
+}
+
+section.service div.boxService div span {
+	width: 60px;
+	height: 60px;
+	background-color: #03a9f4;
+	color: #FFF;
+	font-size: 1.9em;
+	line-height: 2.2em;
+	display: inline-block;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+section.service div.boxService div h3 {
+	color: #1f1f1f;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+section.service div.boxService div p {
+	font-size: .9em;
+	color: #cdcdcd;
+	margin-bottom: 20px;
+}
+
+section.service div.boxService div a {
+	color: #03a9f4;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: .8em;
+}
+/*================================================
+							      	       End style Service
+================================================*/
+
+/*================================================
+							      	       Start style Portofolio
+================================================*/
+section.portofolio {
+	text-align: center;
+	padding: 60px 0 0 0;
+}
+
+section.portofolio h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+section.portofolio p {
+	width: 800px;
+	margin: 20px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+
+section.portofolio div.menuPhoto ul {
+	width: 470px;
+	margin: 0 auto;
+}
+
+section.portofolio div.menuPhoto ul li {
+	float: left;
+}
+
+section.portofolio div.menuPhoto ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 15px;
+	color: #000;
+}
+
+section.portofolio div.gallery img {
+	display: block;
+	float: left;
+	width: 25%;
+	height: 315px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+section.portofolio div.gallery a {
+	color: #03a9f4;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: .8em;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	display: block;
+}
+/*================================================
+							      	      End style Portofolio
+================================================*/
+
+/*================================================
+							      	         Start style Blog
+================================================*/
+section.blog {
+	background: url(../img/bgblog.jpg) no-repeat 0px -209px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	height: 300px;
+}
+
+section.blog div.overly div.container div {
+	padding: 110px 0 0 0;
+}
+
+section.blog div.overly div.container div p {
+	font-size: 1.2em;
+	color: #FFF;
+}
+
+section.blog div.overly div.container div button {
+	padding: 15px 37px;
+	background-color: #03a9f4;
+	text-align: center;
+	color: #FFF;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+/*================================================
+							      	         End Style Blog
+================================================*/
+
+/*================================================
+						      	            Start Style News
+  ================================================*/
+section.news {
+	text-align: center;
+	padding: 70px 0 0 0;
+	height: 540px;
+}
+
+section.news h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+section.news > p {
+	width: 800px;
+	margin: 20px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+
+section.news div.container div {
+	width: 30%;
+	float: left;
+	height: 230px;
+	margin-right: 37px;
+}
+
+section.news div.container div:last-child {
+	margin-right: 0;
+}
+
+section.news div.container div img {
+	width: 100%;
+	height: 230px;
+}
+
+section.news div.container div span {
+	color: #cccccc;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: block;
+}
+
+section.news div.container div  p {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.7em;
+	color: #03a9f4;
+}
+/*================================================
+						      	            End Style News
+  ================================================*/
+
+/*================================================
+						      	         Start  Style Our Team
+  ================================================*/
+section.ourTeam {
+	text-align: center;
+	padding: 50px 0 0 0;
+	overflow: hidden;
+}
+
+section.ourTeam h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+section.ourTeam > p {
+	width: 800px;
+	margin: 20px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+
+section.ourTeam div.container div {
+  width: 22%;
+  float: left;
+  margin-right: 33px;
+}
+
+section.ourTeam div.container div:last-chile {
+	margin-right: 0;
+}
+
+section.ourTeam div.container div img {
+	width: 100%;
+	height: 370px;
+}
+
+section.ourTeam div.container div h3 {
+	margin: 20px 0 20px 0;
+}
+
+section.ourTeam div.container div span {
+	color: #cdcdcd;
+}
+/*================================================
+					      	         End  Style Our Team
+  ================================================*/
+
+/*================================================
+					      	         Start  Style Our Skills
+  ================================================*/
+section.ourSkills {
+	text-align: center;
+	padding: 60px 0 30px 0;
+	overflow: hidden;
+}
+
+section.ourSkills h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+section.ourSkills > p {
+	width: 800px;
+	margin: 20px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+
+section.ourSkills div.container div.leftSkills {
+	float: left;
+}
+
+section.ourSkills div.container div.rightSkills {
+	float: right;
+}
+
+section.ourSkills div.container div.leftSkills  div.technique,
+section.ourSkills div.container div.rightSkills  div.technique{
+	margin-bottom: 10px;
+	height: 100px;
+}
+
+section.ourSkills div.container div.leftSkills  div.technique h3,
+section.ourSkills div.container div.rightSkills  div.technique h3 {
+	text-align: left;
+	text-transform: uppercase;
+	float: left;
+	display: inline-block;
+}
+section.ourSkills div.container div.leftSkills  div.technique h5,
+section.ourSkills div.container div.rightSkills  div.technique h5 {
+	float: right;
+	text-align: right;
+	display: inline-block;
+}
+
+section.ourSkills div.container div.leftSkills  div.technique div:last-child,
+section.ourSkills div.container div.rightSkills  div.technique div:last-child{
+	height: 22px;
+	width: 500px;
+	background-color: #8FDAFF;
+	margin-top: 12px;
+	border-radius: 3px;
+}
+
+section.ourSkills div.container div.leftSkills  div.technique div span,
+section.ourSkills div.container div.rightSkills  div.technique div span {
+	width: 95%;
+	height: 22px;
+	background-color: #03a9f4;
+	display: block;
+	border-radius: 3px;
+}
+
+/*================================================
+					      	          End Style Our Skills
+  ================================================*/
+
+/*================================================
+					      	             Start Style Count
+  ================================================*/
+ section.count {
+	 height: 120px;
+	 padding: 70px 0 50px 0;
+	 background-color: #fa8a14;
+ }
+
+section.count div.container div {
+	width: 25%;
+	float: left;
+}
+
+section.count div.container div > span:first-child {
+	width: 60px;
+	height: 60px;
+	background-color: #FFF;
+	color: #fa8a14;
+	font-size: 1.9em;
+	line-height: 2.2em;
+	display: inline-block;
+	border-radius: 3px;
+	text-align: center;
+	float: left;
+	margin-right: 15px;
+}
+
+section.count div.container div h3 {
+	font-size: 1.9em;
+	color: orange;
+	margin-top: 15px;
+	color: #FFF;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+section.count div.container div > span:last-child {
+	font-size: .7em;
+	margin-top: 15px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+/*================================================
+					      	              End Style Count
+  ================================================*/
+
+/*================================================
+					      	       Start Style Our Team Two
+  ================================================*/
+section.ourTeamTwo {
+	text-align: center;
+	padding: 60px 0 50px 0;
+	overflow: hidden;
+}
+
+section.ourTeamTwo h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+section.ourTeamTwo > p {
+	width: 800px;
+	margin: 20px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+
+section.ourTeamTwo div.container > div {
+	width: 31%;
+	float: left;
+	margin-right: 2%;
+}
+
+section.ourTeamTwo div.container > div:last-child {
+	margin-right: 0;
+}
+
+section.ourTeamTwo div.container div i {
+	color: #03a9f4;
+	font-size: 1.2em;
+	margin-bottom: 40px;
+}
+
+section.ourTeamTwo div.container div p {
+	font-style: italic;
+ 	margin-bottom: 30px;
+}
+
+section.ourTeamTwo div.container div div.info {
+	width: 170px;
+	margin: 0 auto;
+	text-align: left;
+	overflow: hidden;
+}
+
+section.ourTeamTwo div.container div div.info img {
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+section.ourTeamTwo div.container div div.info h3 {
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+section.ourTeamTwo div.container div div.info span {
+	font-size: .7em;
+	color: #ccc;
+	font-weight: bold;
+}
+/*================================================
+					      	       End Style Our Team Two
+  ================================================*/
+
+/*================================================
+					      	          Start Style Customer
+  ================================================*/
+section.customers {
+	background: url(../img/bgcustomer.jpg) no-repeat 0px -53px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	height: 350px;
+}
+
+section.customers div.overly h2 {
+	font-size: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 40px;
+	margin-bottom: 20px;
+	color: #FFF;
+}
+
+section.customers div.overly > p {
+	width: 700px;
+	margin: 40px auto;
+	color: #cdcdcd;
+	line-height: 2em;
+}
+/*================================================
+					      	          End Style Customers
+  ================================================*/
+
+/*================================================
+				      	                 Start Style Maps
+  ================================================*/
+section.mapGoogle {
+	height: 400px;
+}
+/*================================================
+				      	                 End Style Maps
+  ================================================*/
+
+/*================================================
+			      	                    Start Style Footer
+  ================================================*/
+footer {
+	background-color: #212121;
+	height:40px;
+	padding-top: 20px;
+}
+
+footer div.container div.copyRights {
+	float: left;
+	color: #FFF;
+	font-size: .8em;
+	font-weight: normal;
+}
+footer div.container div.copyRights a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer div.container div.menuBottom {
+	float: right;
+}
+
+footer div.container div.menuBottom ul li {
+	float: left;
+	color: #FFF;
+}
+
+footer div.container div.menuBottom ul li a {
+	text-decoration: none;
+	margin-right: 15px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: .8em;
+}
+
+footer div.container div.menuBottom ul li a.selected,
+footer div.container div.menuBottom ul li a:hover  {
+	color: #03a9f4;
+}
+
+/*================================================
+			      	                     End Style Footer
+  ================================================*/
